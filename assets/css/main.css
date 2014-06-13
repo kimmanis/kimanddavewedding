@@ -409,4 +409,20 @@ a:after {
     background: #ff7878;
 }
 
+.button {
+display: block;
+text-align: center;
+font-size: 18px;
+font-weight: bold;
+padding: 15px 10px;
+color: white;
+background: #1abc9c;
+}
+
+.button:hover {
+background: #ff7878;
+color: white;
+}
+
+
 

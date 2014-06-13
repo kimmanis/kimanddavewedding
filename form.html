@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="assets/ico/favicon.png">
+
+    <title>Kim & Dave's Wedding</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="assets/css/main.css" rel="stylesheet">
+
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <!-- Fixed navbar -->
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">KIM<i class="fa fa-heart"></i>DAVE</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="index.html">HOME</a></li>
+            
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+
+	<div id="blue">
+		<div class="container">
+			<div class="row centered">
+				<div class="col-lg-8 col-lg-offset-2">
+				<h4>PLEASE FILL IN YOUR MAILING ADDRESS</h4>
+				<p>We can't wait to celebrate with you! Give us your address so we know where to send the invite.</p>
+				</div>
+			</div><!-- row -->
+		</div><!-- container -->
+	</div><!--  bluewrap -->
+
+
+	<div class="container desc">
+		<div class="row">
+			<div class="">
+	</br>
+
+				<div class="row">
+    <div class="col-md-7 col-md-offset-3">
+      <form class="form-horizontal" role="form" action="/index.html" method="post">
+        <fieldset>
+
+          <!-- Form Name -->
+          <legend>Address Details</legend>
+
+          <!-- Text input-->
+          <div class="form-group">
+            <label class="col-sm-2 control-label" for="textinput">Name</label>
+            <div class="col-sm-10">
+              <input type="text" id="Name" placeholder="Name" class="form-control">
+            </div>
+          </div>
+
+           <!-- Text input-->
+          <div class="form-group">
+            <label class="col-sm-2 control-label" for="textinput">Email</label>
+            <div class="col-sm-10">
+              <input type="text" id="Email" placeholder="Email" class="form-control">
+            </div>
+          </div>
+
+          <!-- Text input-->
+          <div class="form-group">
+            <label class="col-sm-2 control-label" for="textinput">Line 1</label>
+            <div class="col-sm-10">
+              <input type="text" id="Address_1" placeholder="Address Line 1" class="form-control">
+            </div>
+          </div>
+
+          <!-- Text input-->
+          <div class="form-group">
+            <label class="col-sm-2 control-label" for="textinput">Line 2</label>
+            <div class="col-sm-10">
+              <input type="text" id="Address_2" placeholder="Address Line 2" class="form-control">
+            </div>
+          </div>
+
+          <!-- Text input-->
+          <div class="form-group">
+            <label class="col-sm-2 control-label" for="textinput">City</label>
+            <div class="col-sm-10">
+              <input type="text" id="City" placeholder="City" class="form-control">
+            </div>
+          </div>
+
+          <!-- Text input-->
+          <div class="form-group">
+            <label class="col-sm-2 control-label" for="textinput">State</label>
+            <div class="col-sm-4">
+              <input type="text" id="State" placeholder="State" class="form-control">
+            </div>
+
+            <label class="col-sm-2 control-label" for="textinput">Zip</label>
+            <div class="col-sm-4">
+              <input type="text" id="Zip" placeholder="Zip" class="form-control">
+            </div>
+          </div>
+
+
+
+          <!-- Text input-->
+          <div class="form-group">
+            <label class="col-sm-2 control-label" for="textinput">Phone</label>
+            <div class="col-sm-10">
+              <input type="text" id="Phone" placeholder="Phone" class="form-control">
+            </div>
+          </div>
+
+
+</br>
+<div class="row">
+	
+	<label class="" for="textinput">Anything else?</label>
+<textarea rows="3" id="Notes" placeholder="Note for the bride and groom? Plan on moving in the next year? Just want to say hi?" class="form-control"></textarea>
+</div>
+</br>
+
+
+          <div class="form-group">
+            <div class="col-sm-offset-2 col-sm-10">
+              <div class="pull-right">
+                <button id="submit" type="submit" class="btn btn-primary">Submit</button>
+              </div>
+            </div>
+          </div>
+
+        </fieldset>
+      </form>
+    </div><!-- /.col-lg-12 -->
+</div><!-- /.row -->
+
+
+			</div>
+		</div>
+	</div><!-- container -->
+
+
+
+	
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/jquery.parse.js"></script>
+
+
+    <script type="text/javascript">
+
+		    $( "form" ).on( "submit", function( event ) {
+			  event.preventDefault();
+
+		    var data = {}
+		    var Form = this;
+
+			  //Gathering the Data
+		    //and removing undefined keys(buttons)
+		    $.each(Form.elements, function(i, v){
+		            var input = $(v);
+		        data[input.attr("id")] = input.val();
+		        delete data["undefined"];
+		    });
+
+		    console.log( data);
+			  
+			$.ajax({
+				// ENTER YOUR CLASS NAME
+			  	url: 'https://api.parse.com/1/classes/Guest',
+			    type: 'POST',
+			    dataType : "json",
+			    data : JSON.stringify(data),
+			    // APP IDS FROM PARSE
+			    headers: { 'X-Parse-Application-Id': 's0LagK4wFMSYLppipc4GZ8Pf1SSgFlwfuAKpGWEZ', 'X-Parse-REST-API-Key':'v6v3KiQ626vxg5NVvfEVlIfuDf07k47i2E4aAGAv', 'Content-Type': 'application/json' },
+			    context : Form,
+			    success : function(callback){
+	            console.log( "success");
+	            // WHERE DO YOU REDIRECT AFTER SUBMIT
+	            window.location = "http://www.kimanddavewedding.com";
+		        },
+		        error : function(){
+		           // $(this).html("Error!");
+		           console.log( "fail");
+		        }
+
+			    });
+			});
+					
+	</script>
+
+
+    
+  </body>
+</html>
