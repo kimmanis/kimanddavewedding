@@ -275,7 +275,14 @@
         tagName: 'kimanddavewedding',
         clientId: '3280dcd5a06f4b78a8a195cc28cabe28',
         limit: 4,
-        sortBy: 'most-recent'
+        sortBy: 'most-recent',
+        filter: function(image) {
+            if((image.user.username  != "sambuttons4") && (image.user.username !=  "onecherish")) {
+                return true;
+            }else{
+                return false;
+            }
+          }
     });
     feed.run();
 
