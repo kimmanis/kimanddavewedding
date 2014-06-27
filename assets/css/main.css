@@ -14,7 +14,8 @@
 /* OVERALL ASPECT */
 
 body {
-  background-color: #f2f2f2;
+  background-color: #
+  ;
     font-family: "Lato";
     font-weight: 300;
     font-size: 16px;
@@ -133,14 +134,16 @@ a:after {
    ========================================================================== */
 
 #headerwrap {
-	background: url(../img/libertyblue.png) no-repeat center top;
+	background: url(../img/gum.jpg) no-repeat fixed center top;
 	margin-top: -10px;
 	padding-top:20px;
 	text-align:center;
 	background-attachment: relative;
 	background-position: center center;
-	min-height: 500px;
+	min-height: 600px;
 	width: 100%;
+    position: relative;
+    text-shadow:2px 2px #101010;
 	
     -webkit-background-size: 100%;
     -moz-background-size: 100%;
@@ -153,16 +156,83 @@ a:after {
     background-size: cover;
 }
 
+#headerwrap_family {
+    background: url(../img/family.jpg) no-repeat fixed center top;
+    margin-top: -10px;
+    padding-top:20px;
+    text-align:center;
+    background-attachment: relative;
+    background-position: center center;
+    min-height: 550px;
+    width: 100%;
+    position: relative;
+    
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#headerwrap_hands {
+    background: url(../img/hands.jpg) no-repeat fixed center top;
+    margin-top: -10px;
+    padding-top:20px;
+    text-align:center;
+    background-attachment: relative;
+    background-position: center center;
+    min-height: 500px;
+    width: 100%;
+    position: relative;
+    
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#headerwrap_kiss {
+    background: url(../img/kiss.jpg) no-repeat fixed center top;
+    margin-top: -10px;
+    padding-top:20px;
+    text-align:center;
+    background-attachment: relative;
+    background-position: center center;
+    min-height: 500px;
+    width: 100%;
+    position: relative;
+    
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
 #headerwrap h1 {
 	margin-top: 100px;
-	color: white;
+	color: #F2F2F2;
 	font-size: 70px;
-	font-weight: 300;
+	font-weight: 550;
 	letter-spacing: 3px;
 }
 
 #headerwrap h2 {
-	color: white;
+	color: #F2F2F2;
 	font-size: 40px;
 	font-weight: 700;
 	letter-spacing: 2px;
