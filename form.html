@@ -135,12 +135,12 @@
 
        
        </br>
-       
+    <!--   
 	<div class="row">
 		<label class="" for="textinput">We are going to reserve a block of hotel rooms at a discounted rate. Do you think you'll be needing a room? When we finalize the details, we'll reach out to you with details and pricing.</label>
 		<input type="checkbox" id="Hotel" value="Yes" name="Hotel"> <b>Yes, please send me info about discounted hotel rates.</b>
 	</div>
-	</br>
+	</br><-->
 
 </br>
 <div class="row">
@@ -200,8 +200,8 @@
 		        data[input.attr("id")] = input.val();
 		        delete data["undefined"];
 		    });
-		    data["Hotel"] = document.getElementById('Hotel').checked ? "Yes" : "No";
-		    console.log( data);
+		    //data["Hotel"] = document.getElementById('Hotel').checked ? "Yes" : "No";
+		    //console.log( data);
 			  
 			  
 			$.ajax({

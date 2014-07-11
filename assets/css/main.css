@@ -157,7 +157,7 @@ a:after {
 }
 
 #headerwrap_mobile {
-    background: url(../img/gum_title_mobile.jpg) no-repeat fixed center top;
+    background: url(../img/gum_title_mobile.jpg) no-repeat center top;
     margin-top: -10px;
     padding-top:20px;
     text-align:center;
@@ -201,8 +201,52 @@ a:after {
     background-size: cover;
 }
 
+#headerwrap_family_mobile {
+    background: url(../img/family_web.jpg) no-repeat center top;
+    margin-top: -10px;
+    padding-top:20px;
+    text-align:center;
+    background-attachment: relative;
+    background-position: center center;
+    min-height: 600px;
+    width: 100%;
+    position: relative;
+    
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
 #headerwrap_hands {
     background: url(../img/hands_web.jpg) no-repeat fixed center top;
+    margin-top: -10px;
+    padding-top:20px;
+    text-align:center;
+    background-attachment: relative;
+    background-position: center center;
+    min-height: 500px;
+    width: 100%;
+    position: relative;
+    
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#headerwrap_hands_mobile {
+    background: url(../img/hands_web.jpg) no-repeat  center top;
     margin-top: -10px;
     padding-top:20px;
     text-align:center;
@@ -244,6 +288,29 @@ a:after {
     -o-background-size: cover;
     background-size: cover;
 }
+
+#headerwrap_kiss_mobile {
+    background: url(../img/kiss_web.jpg) no-repeat  center top;
+    margin-top: -10px;
+    padding-top:20px;
+    text-align:center;
+    background-attachment: relative;
+    background-position: center center;
+    min-height: 500px;
+    width: 100%;
+    position: relative;
+    
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
 
 
 #headerwrap h1 {
