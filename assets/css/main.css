@@ -156,6 +156,29 @@ a:after {
     background-size: cover;
 }
 
+#headerwrap_mobile {
+    background: url(../img/gum_title_mobile.jpg) no-repeat fixed center top;
+    margin-top: -10px;
+    padding-top:20px;
+    text-align:center;
+
+    background-position: center center;
+    min-height: 600px;
+    width: 100%;
+    position: relative;
+    text-shadow:2px 2px #101010;
+    
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
 #headerwrap_family {
     background: url(../img/family_web.jpg) no-repeat fixed center top;
     margin-top: -10px;
