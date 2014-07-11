@@ -209,7 +209,7 @@
 	<div id="r">
 		<div class="container">
 			<div class="row centered">
-				<div class="col-lg-8 col-lg-offset-2">
+				<div class="col-lg-12">
 					<h2>#KIMANDDAVEWEDDING</h2>
 					<p>Share your memories on Instagram using the hashtag #KimAndDaveWedding.</p>
                      <div id="instafeed"></div>
@@ -249,10 +249,10 @@
         get: 'tagged',
         tagName: 'kimanddavewedding',
         clientId: '3280dcd5a06f4b78a8a195cc28cabe28',
-        limit: 6,
+        limit: 8,
         sortBy: 'most-recent',
         filter: function(image) {
-            if((image.user.username  != "sambuttons4") && (image.user.username !=  "onecherish")) {
+            if((image.user.username  == "kimmmmmy") || (image.user.username ==  "drigotti")) {
                 return true;
             }else{
                 return false;
